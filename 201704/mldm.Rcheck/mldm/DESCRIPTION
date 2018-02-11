@@ -1,0 +1,21 @@
+Package: mldm
+Type: Package
+Title: A Multivariate Logistic Distance Model in R
+Version: 1.0
+Date: 2015-05-11
+Author: Hailemichael M. Worku and Mark de Rooij
+Maintainer: Hailemichael M Worku <hmetiku@yahoo.com>
+Description: Multivariate binary data, in which there are multiple binary outcome 
+    variables and one or more predictor variable(s), are often collected in emperical 
+    sciences such as psychology, medicine, criminiology, epidemiology, and life 
+    sciences. The mldm package fits a logistic distance models on such data. The model
+    is a family of marginal models (like the standard and extended GEE methods). 
+    Dimension reduction as a form of regularization, is possible in the distance model.
+    Such a reduction makes the distance model more preferred compared to the existing 
+    marginal models since less parameters need to be estimated. The distance model can 
+	be used for comparing factorial structure of the data.
+License: GPL (>= 2)
+Depends: R (>= 2.10.1), geepack, Formula, MASS
+NeedsCompilation: no
+Packaged: 2017-04-21 13:14:38 UTC; workuhm
+Built: R 3.2.0; ; 2017-04-21 13:15:47 UTC; unix

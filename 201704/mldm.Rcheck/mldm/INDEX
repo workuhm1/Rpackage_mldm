@@ -1,0 +1,8 @@
+NESDA                   The NESDA Data
+QIC.mldm                Quasi-Information Criterion
+biplot.mldm             Biplot for the MLD model
+mldm                    Multivariate Logistic Distance Model for
+                        analyzing clustered binary data in R
+mldm.fit                Fits Multivariate Logistic Distance Models
+print.mldm              Display (part of) the results
+summary.mldm            Display (most of) the results

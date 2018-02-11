@@ -1,0 +1,8 @@
+exportPattern("^[[:alpha:]]+")
+S3method(print, mldm)
+S3method(summary, mldm)
+S3method(biplot, mldm)
+import(geepack)
+import(Formula)
+import(MASS)
+
