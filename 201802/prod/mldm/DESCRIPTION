@@ -1,0 +1,19 @@
+Package: mldm
+Type: Package
+Title: A Multivariate Logistic Distance Model in R
+Version: 0.84
+Date: 2018-02-23
+Author: Hailemichael M. Worku and Mark de Rooij
+Maintainer: Hailemichael M Worku <hmetiku@yahoo.com>
+Description: Multivariate binary data with multiple binary responses and one or 
+    more explanatory variable(s), are often collected in emperical 
+    sciences such as psychology, medicine, criminiology, epidemiology, and life 
+    sciences. The mldm package enables us to fit a Multivariate Logistic Distance (MLD) model 
+    on such type of data. 
+    Dimension reduction as a form of regularization is possible in the MLD model.
+    The reduction in dimension makes the distance model more preferred than the 
+    existing marginal models since less parameters are estimated. The MLD model can 
+    be used for comparing dimensional structure of the data.
+License: GPL (>= 2)
+Depends: R (>= 2.10.1), geepack, Formula, MASS
+RoxygenNote: 6.0.1
